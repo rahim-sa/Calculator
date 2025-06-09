@@ -1,6 +1,7 @@
 # calculator.py
-
-__version__ = "0.1.0"
+#import time
+#import pandas as pd
+#__version__ = "0.1.0"
 
 
 def add(a, b):
@@ -16,3 +17,6 @@ def division(a, b):
 	else:
 		print("b shouldn't be equal zero")
 
+print(add(23,45))
+print(subtract(23,45))
+print(division(23,45))
